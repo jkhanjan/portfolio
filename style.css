@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Bebas+Neue&family=Lilita+One&family=Poppins&family=Ysabeau+SC:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+hr{
+    margin:0px 130px 0px 130px;
+}
+body{
+    transition: 0.1s ease;
+    background-color: rgb(236, 236, 243);
+    transition: 0.3s ease;
+}
+.container{
+    background: url('./img/bg.jpg');
+    background-size:cover;
+    height:43rem;
+    transition: 0.3s ease;
+}
+/*-------------------- NAVBAR -------------------*/
+navbar{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+navbar a{
+    color:rgb(231, 255, 255);
+    font-size:1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 0.7s ease-in;
+}
+.navitems{
+    width:98%;
+    text-align: center;
+    padding:20px;
+    margin:10px;
+    transition: 0.7s ease-in;
+}
+.items{
+    display: flex;
+    width:93%;
+    justify-content: space-between;
+    color: rgb(209, 209, 250);
+    transition: 0.3s ease-in;
+}
+#contact:hover{
+    background-color: aliceblue;
+    color: rgb(85, 81, 81);
+    transition: 0.3s ease;
+}
+.navitems a{
+    margin: 50px;
+    text-decoration: none;
+    transition: 0.7s ease-in;
+}
+#contact{
+    background: aqua;
+    color:black;
+    border-radius: 50px;
+    align-self: center;
+    padding: 14px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: 0.7s ease-in;
+}
+/*---------1st Section----------*/
+section{
+    margin-top: 2rem;
+    transition: 0.7s ease-in;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-left:30px;
+    transition: 0.7s ease-in;
+}
+.hello{
+    color: rgb(203, 203, 241);
+    padding:3rem 3rem 3rem 3rem;
+    transition: 0.7s ease-in;
+}
+.hello span {
+    color:rgb(0, 255, 255);
+}
+
+.hello span1 {
+    color:yellow;
+    font-size: 3.3rem;
+}
+.hello h1{
+    font-size: 5.4rem;
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.hello h3{
+    text-align: center;
+    margin-top:7px;
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.hello p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/*-------------ABout section----------------*/
+
+.aboutme{
+    text-align: center;
+    margin:80px 50px 0px 50px;
+    transition: 0.7s ease-in;
+}
+.about{
+    width:100%;
+    transition: 0.7s ease-in;
+}
+.content{
+    margin: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s ease-in;
+}
+.header{
+    width:20%;
+    font-size:3.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(71, 76, 87);
+    padding-bottom: 10px;
+    transition: 0.3s ease-in;
+}
+.header h1:hover{
+    color: black;
+    transition: 0.3s ease-in;
+}
+.content1{
+    width:50%;
+    text-align: left;
+    transition: 0.3s ease-in;
+}
+.content1 ul{
+    font-size: 2.4rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.content1 li{
+    font-size: 1.15rem;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------skills seection-------------*/
+.skillset{
+    margin-top: 50px;
+    transition: 0.3s ease-in;
+}
+.skillset h1:hover{
+    color:black;
+}
+.skill-container{
+    margin:0px 100px 0 100px;
+}
+.skill-container h1{
+    text-align: center;
+    color: rgb(71, 76, 87);
+}
+.skillheader{
+    font-size: 3.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.skill-image{
+    margin:0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:2.3rem;
+}
+.skill-image{
+    text-align: center;
+    height: 15rem;
+}
+.skill-image img:hover{
+    width:190px;
+    height: 190px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.skill-image p{
+    margin:10px;
+    font-size:1.8rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight:600;
+}
+/*------------EXPERIENCE SECTION-----------*/
+.experience{
+    margin-top: 60px;
+    transition: 0.3s ease-in;
+}
+.experience h1:hover{
+    color: black;
+    transition: 0.3s ease-in;
+}
+.experience-section{
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+.exp h1{
+    font-size: 6.3rem;
+    color: rgb(71, 76, 87);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.exp p{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;     
+}
+.exp span{
+    font-size: 2.6rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 900;
+}
+
+/*-----------contact info------*/
+.contact-info{
+    margin-top: 60px;
+    text-align: center;
+}
+.contact h1{
+    font-size: 6.3rem;
+    color: rgb(71, 76, 87);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.contact h1:hover{
+    color: black;
+}
+.contact span{
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+}
+.contact p{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.8rem;
+}
+/*---------footer--------*/
+footer{
+    margin-top:10px;
+}
+.footer{
+    background-color: rgb(194, 194, 245);
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;  
+}
+@media(min-width:899px){
+    .items img{
+        display: none;
+        transition: 0.3s ease-in;
+    }
+}
+/*   MOBILEMENU   */
+@media(max-width:899px){
+    #menu-btn{
+        display: block;
+        transition: 0.3s ease-in;
+    }
+    #menu-btn2{
+        display: none;
+        transition: 0.3s ease-in;
+    }
+    #mainmenu{
+        display: none;
+        transition: 0.3s ease-in;
+    }
+    .navitems a {
+        display: flex;
+        justify-content: center;
+        margin:15px;
+        transition: 0.3s ease-in;
+    }
+    .hello{
+        display: block;
+        transition: 0.3s ease-in;
+    }
+    .items img{
+        margin-top:30px;
+    }
+    .hello span1 {
+        color:yellow;
+        font-size: 3.3rem;
+    }
+    .hello h1{
+        font-size: 4.22rem;
+        margin-top: 0px;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    /*    first seection */
+    .header{
+        width:100%;
+        font-size:2.5rem;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgb(71, 76, 87);
+        padding-bottom: 10px;
+    }
+    .content{
+        margin: 0px 30px 0px 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .content1{
+        margin:auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content1 ul{
+        font-size: 1.7rem;
+    }
+    .content li{
+        font-size: 1rem;
+    }
+    /*    skill section  */
+    .skillheader{
+        font-size: 2.5rem;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .skill-image{
+        margin:0px -40px 0px -40px;
+        display: flex;
+        justify-content: space-around;
+        margin-top:2.3rem;
+        justify-content: space-evenly;
+
+    }
+    .skill-image p{
+        font-size: 1.3rem;
+    }
+
+    .image1 img{
+        height:120px;
+        width: 120px;
+    }
+    .image2 img{
+        height:120px;
+        width: 120px;
+    }
+    .image3 img{
+        height:120px;
+        width: 120px;
+    }
+    .skill-image img:hover{
+        width:130px;
+        height: 130px;
+        transition: 0.3s ease-in;
+        cursor: pointer;
+    }
+    /*------experience section----*/
+    .exp h1{
+        font-size: 3.5rem;
+    }
+    .exp span{
+        font-size: 1.5rem;
+    }
+    .exp p{
+        font-size: 1.2rem;
+    }
+    /*    contact info */
+    .contact h1{
+        font-size: 3.5rem;
+    }
+    .contact span{
+        font-size: 1.5rem;
+    }
+    .contact p{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:600px){
+
+    .hello span1 {
+        color:yellow;
+        font-size: 2.0rem;
+    }
+    .hello h1{
+        font-size: 2.4rem;
+        margin-top: 0px;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .hello h3{
+        font-size: 1.7rem;
+    }
+    .header{
+        width:100%;
+        font-size:2.5rem;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgb(71, 76, 87);
+        padding-bottom: 10px;
+    }
+    .content{
+        margin: 0px 10px 0px 10px;
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .image1 img{
+        width: 100%;
+        margin: auto;
+        height:130px;
+        width: 130px;
+    }
+    .image2 img{
+        width: 100%;
+        height:130px;
+        width: 130px;
+    }
+    .image3 img{
+        width: 100%;
+        height:130px;
+        width: 130px;
+    }
+    .skill-image{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin:13rem auto;
+    }
+
+}
